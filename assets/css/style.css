@@ -1876,6 +1876,7 @@ label.files{
     height: 50px;
     padding: 10px 10px 10px 30px;
     width: 100%;
+    text-align: left;
 }
 .contact select:hover, label.files:hover{
     border: 2px solid #f9461d;
