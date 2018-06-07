@@ -680,7 +680,7 @@ margin-right: 10px;
 * 08.START RECENT PROJECT DESIGN
 * ----------------------------------------------------------------------------------------
 */
-.our_work{background:#f9f9f9;}
+.our_work{background:#f9f9f9;display: none}
 .single_gallery{
 margin: 0 10px 40px;
 position: relative;
@@ -1256,11 +1256,12 @@ transition: all 0.2s ease 0s;
 * 15.START CONTACT ADDRESS DESIGN
 * ----------------------------------------------------------------------------------------
 */
-.contact-address{
-position:relative;
-background-attachment: fixed;
-    background-repeat: repeat-y;
-    background-position: top center;
+.contact-address {
+    background-image: url(../img/bg/contact-bg.jpg);
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 .contact-address:before {
 background: rgba(0, 0, 0, 0.4);
